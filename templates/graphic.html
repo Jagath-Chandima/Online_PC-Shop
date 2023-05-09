@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>Graphic PC</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+    <div class="table-wrapper">
+        <table class="alt">
+            <thead>
+            <tr>
+                <th>PC Type</th>
+                <th>CPU</th>
+                <th>CPU Cooler</th>
+                <th>Motherboard</th>
+                <th>Memory</th>
+                <th>Storage</th>
+                <th>VGA</th>
+                <th>Casing</th>
+                <th>Power Supply</th>
+                <th>Operating System</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for record in values %}
+                <tr class="odd gradeX" onclick="javascript:showRow(this);">
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+                <td>{{ record[3] }}</td>
+                <td>{{ record[4] }}</td>
+                <td>{{ record[5] }}</td>
+                <td>{{ record[6] }}</td>
+                <td>{{ record[7] }}</td>
+                <td>{{ record[8] }}</td>
+                <td>{{ record[9] }}</td>
+                <td>{{ record[10] }}</td>
+                <td>{{ record[11] }}</td>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+<div id="main" class="container">
+         <form>
+             <table class="xs-col-12">
+        <thead>
+            <tr>
+                <th class="th__component">Component</th>
+                <th></th>
+                <th class="th__selection" colspan="2">Selection</th>
+                <th class="th__price"></th>
+            </tr>
+        </thead>
+        <tbody>
+                    <tr class="tr__product" >
+                    <td class="td__component">PC Type</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="pc_type" id="pc_type" value=""  />
+            </div>
+                    </td>
+                </tr>
+
+                <tr class="tr__product" >
+                    <td class="td__component">CPU </td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                      <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="cpu" id="cpu" value=""  />
+                      </div>
+                    </td>
+                </tr>
+
+      <tr class="tr__product" >
+                    <td class="td__component"> CPU Cooler</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                       <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="cooler" id="cooler" value=""  />
+            </div>
+                    </td>
+                </tr>
+
+    <tr class="tr__product" >
+                    <td class="td__component">Motherboard</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                      <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="motherboard" id="motherboard" value=""  />
+            </div>
+                    </td>
+                </tr>
+          <tr class="form_group" >
+                    <td class="td__component">Memory</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="memory" id="memory" value=""  />
+            </div>
+                    </td>
+                </tr>
+                <tr class="tr__product" >
+                    <td class="td__component">Storage</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="storage" id="storage" value=""  />
+            </div>
+                    </td>
+                </tr>
+        <tr class="tr__product" >
+                    <td class="td__component">VGA</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                       <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="vga" id="vga" value=""  />
+            </div>
+                    </td>
+                </tr>
+
+          <tr class="tr__product" >
+                    <td class="td__component">Casing</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="casing" id="casing" value=""  />
+            </div>
+                    </td>
+                </tr>
+
+        <tr class="tr__product" >
+                    <td class="td__component">Power Supply</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                       <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="power" id="power" value=""  />
+            </div>
+                    </td>
+                </tr>
+
+      <tr class="tr__product" >
+                    <td class="td__component">Operating System</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="os" id="os" value=""  />
+            </div>
+                    </td>
+                </tr>
+                <tr class="tr__product" >
+                    <td class="td__component">Total</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <div class="12u$ 12u$(xsmall)">
+                <input type="text" name="total" id="total" value=""  />
+            </div>
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+             <div class="form-group">
+            </div>
+              <button type="reset" class="button special" name="bttn" value="Reset" >Reset</button>
+             <button type="reset" onclick="window.print()" class="button special" name="bttn" value="Reset" >Print</button>
+        </section>
+        </form>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<h2>IF you ordered please login</h2>
+					</ul>
+				</div>
+			</footer><script>
+    {#    show data in form view when click the table row#}
+    function showRow(row)
+    {
+        var x =  row.cells;
+        document.getElementById("pc_type").value = x[0].innerHTML;
+        document.getElementById("cpu").value = x[1].innerHTML;
+        document.getElementById("cooler").value = x[2].innerHTML;
+        document.getElementById("motherboard").value = x[3].innerHTML;
+        document.getElementById("memory").value = x[4].innerHTML;
+        document.getElementById("storage").value = x[5].innerHTML;
+        document.getElementById("vga").value = x[6].innerHTML;
+        document.getElementById("casing").value = x[7].innerHTML;
+        document.getElementById("power").value = x[8].innerHTML;
+        document.getElementById("os").value = x[9].innerHTML;
+        document.getElementById("total").value = x[10].innerHTML;
+    }
+    function deleteloantype(){
+        var val= confirm("Do you want to Delete this Record?")
+        if(val){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    {#    disable and enable the modify button#}
+    $(document).ready(function(){
+        $('input[id = "active"]').attr('disabled', true);
+        $('input[type = "text"]').on('keyup', function(){
+            var text_value1 = $("#f_name").val();
+            var text_value2  = $("#l_name").val();
+            var text_value3  = $("#u_name").val();
+            var text_value4  = $("#nic").val();
+            var text_value5  = $("#email").val();
+            if(text_value1 != '' || text_value2 != '' || text_value3 != '' || text_value4 != '' || text_value5  != ''){
+                $('input[id = "active"]').attr('disabled', false);
+            }else{
+                $('input[id = "active"]').attr('disabled', true);
+            }
+        })
+    })
+</script>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

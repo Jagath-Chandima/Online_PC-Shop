@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<!--
+
+-->
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>Items Register</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="main" class="container">
+        <form class="register-form" action="item_register" method="post">
+               <div class="form-group">
+                <select class="form-control" name="item" id="item">
+                                        <option value="">Select Item </option>
+                                        <option value="Processors">Processors</option>
+                                        <option value="Motherboards">Motherboards </option>
+                                        <option value="RAM">RAM</option>
+                                        <option value="ROM">ROM</option>
+                                        <option value="Casing">Casing Items </option>
+                                        <option value="Coolers"> Coolers</option>
+                                        <option value="Power_supply">Power Supply</option>
+                                    </select><br>
+           </div>
+            <input type="text" placeholder=" Capacity" id="capacity"  required="" name="capacity"/><br>
+            <input type="text" placeholder="Number of items" id="number_of_items" required="" name="number_of_items"/><br>
+             <input type="text" placeholder="Price of one item" value=""  name="price" id="price"  /><br>
+            <label for="exampleInputName">Select Date  :</label>
+           <input type="date" name="date_of_store" class="form-control" size="70" placeholder="date of store " id="date_of_store" required = ""/>
+
+            <div class="form-group">
+            </div><br>
+               <button type="submit" class="button special" name="btn" value="submit" >Register</button>
+              <button type="reset" class="button special" name="btn" value="Reset" >Reset</button>
+
+        </section>
+        </form>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+
+        </ul>
+    </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

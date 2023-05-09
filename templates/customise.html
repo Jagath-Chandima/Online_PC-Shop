@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>Normal PC</h2>
+        </header>
+    </div>
+</section>
+ <div class="table-wrapper">
+        <table class="alt">
+            <thead>
+            <tr>
+                <th>PC Type</th>
+                <th>CPU</th>
+                <th>CPU Cooler</th>
+                <th>Motherboard</th>
+                <th>Memory</th>
+                <th>Storage</th>
+                <th>VGA</th>
+                <th>Casing</th>
+                <th>Power Supply</th>
+                <th>Operating System</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for record in values %}
+                <tr class="odd gradeX" onclick="javascript:showRow(this);">
+                <td>{{ record[0] }}</td>
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+                <td>{{ record[3] }}</td>
+                <td>{{ record[4] }}</td>
+                <td>{{ record[5] }}</td>
+                <td>{{ record[6] }}</td>
+                <td>{{ record[7] }}</td>
+                <td>{{ record[8] }}</td>
+                <td>{{ record[9] }}</td>
+                <td>{{ record[10] }}</td>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+<!-- Main -->
+<div id="main" class="container">
+        <form class="register-form" action="pc_register" method="post">
+                   <div class="form-group">
+                <label for="exampleInputName">Select PC Type  :</label>
+                <select class="form-control" name="pc_type">
+                                        <option value=""></option>
+                                       <option value="gaming">Gaming PC</option>
+                                        <option value="graphic">Graphic PC</option>
+                                        <option value="normal">Normal PC</option>
+                                    </select>
+           <div class="form-group">
+                <label for="exampleInputName">Select CPU  :</label>
+                <select class="form-control" name="cpu">
+                                        <option value=""></option>
+                                        <option value="Intel_Core_i7">Intel Core i7</option>
+                                        <option value="Intel_Core_i5">Intel Core i5</option>
+                                        <option value="Intel_Core_i3">Intel Core i3</option>
+                                        <option value="Core_2_DUE">Core 2 DUE</option>
+                                    </select>
+           </div>
+
+               <div class="form-group">
+                <label for="exampleInputName">Select CPU Cooler  :</label>
+                <select class="form-control" name="cooler">
+                                        <option value=""></option>
+                                        <option value="Cooler_Master_RC-311">Cooler Master RC-311</option>
+                                        <option value="280MM_LIQUID_COOLER">280MM LIQUID COOLER</option>
+                                        <option value="240MM_LIQUID_COOLER">240MM LIQUID CPU COOLER</option>
+                                        <option value="120MM_LIQUID_COOLER">120MM LIQUID CPU COOLER</option>
+                                        <option value="120MM_COOLER">120MM  COOLER</option>
+                                        <option value="120MM_LIQUID_COOLER">120MM LIQUID COOLER</option>
+                                        <option value="Corsair_H60">Corsair H60</option>
+                                    </select>
+           </div>
+
+      <div class="form-group">
+                <label for="exampleInputName">Select Motherboard :</label>
+                <select class="form-control" name="motherboard">
+                                        <option value=""></option>
+                                        <option value="MSI_MEG_Z390">MSI MEG Z390 </option>
+                                        <option value="ASUS_Prime_X299-A">ASUS Prime X299-A  </option>
+                                        <option value="GIGABYTE_Z390_AORUS">GIGABYTE Z390 AORUS</option>
+                                        <option value="ASUS_ROG_STRIX_Z390-F">ASUS ROG STRIX Z390-F</option>
+                                        <option value="ASUS_ROG_STRIX">ASUS ROG STRIX Z390-H</option>
+                                    </select>
+           </div>
+
+    <div class="form-group">
+                <label for="exampleInputName">Select Memory  :</label>
+                <select class="form-control" name="memory">
+                                        <option value=""></option>
+                                        <option value="8GB">8 GB</option>
+                                        <option value="4GB">4 GB</option>
+                                        <option value="2GB">2 GB</option>
+                                    </select>
+           </div>
+          <div class="form-group">
+                <label for="exampleInputName">Select Storage  :</label>
+                <select class="form-control" name="storage">
+                                        <option value=""></option>
+                                        <option value="2TB">2 TB</option>
+                                        <option value="1TB">1 TB</option>
+                                        <option value="500GB">500 GB</option>
+                                        <option value="250GB">250 GB</option>
+                                    </select>
+           </div>
+                <div class="form-group">
+                <label for="exampleInputName">Select VGA  :</label>
+                <select class="form-control" name="vga">
+                                        <option value=""></option>
+                                        <option value="8GB">8 GB</option>
+                                        <option value="4GB">4 GB</option>
+                                        <option value="2GB">2 GB</option>
+                                        <option value="1GB">1 GB</option>
+                                    </select>
+           </div>
+           </div>
+                <div class="form-group">
+                <label for="exampleInputName">Select Casing  :</label>
+                <select class="form-control" name="casing">
+                                        <option value=""></option>
+                                        <option value="ATX_Mid_Tower">ATX Mid Tower</option>
+                                        <option value="ATX_Full_Tower">ATX Full Tower</option>
+                                        <option value="Mini_ITX_Tower">Mini ITX Tower</option>
+                                        <option value="MicroATX_Mini_Tower">MicroATX Mini Tower</option>
+                                    </select>
+           </div>
+        <div class="form-group">
+                <label for="exampleInputName">Select Power Supply  :</label>
+                <select class="form-control" name="power">
+                                        <option value=""></option>
+                                        <option value="750W">750 W</option>
+                                        <option value="600W">600 W</option>
+                                        <option value="450W">450 W</option>
+                                    </select>
+           </div>
+
+              <div class="form-group">
+                <label for="exampleInputName">Select Operating System  :</label>
+                <select class="form-control" name="os">
+                                        <option value=""></option>
+                                        <option value="Windows">Windows</option>
+                                        <option value="Free_Dos">Free Dos</option>
+                                    </select>
+                  </div>
+             <div class="form-group">
+               <button type="submit" class="button special" name="btn" value="submit" >Register</button>
+              <button onclick="add()" class="button special" name="bttn" value="Reset" >Total</button>
+              <button type="reset" class="button special" name="bttn" value="Reset" >Reset</button>
+             <button type="reset" onclick="window.print()" class="button special" name="bttn" value="Reset" >Print</button>
+             </div>
+        </section>
+        </form>
+              <script>
+    {#    show data in form view when click the table row#}
+    function showRow(row)
+    {
+        var x =  row.cells;
+        document.getElementById("pc_type").value = x[0].innerHTML;
+        document.getElementById("cpu").value = x[1].innerHTML;
+        document.getElementById("cooler").value = x[2].innerHTML;
+        document.getElementById("motherboard").value = x[3].innerHTML;
+        document.getElementById("memory").value = x[4].innerHTML;
+        document.getElementById("storage").value = x[5].innerHTML;
+        document.getElementById("vga").value = x[6].innerHTML;
+        document.getElementById("casing").value = x[7].innerHTML;
+        document.getElementById("power").value = x[8].innerHTML;
+        document.getElementById("os").value = x[9].innerHTML;
+        document.getElementById("total").value = x[10].innerHTML;
+    }
+    function deleteloantype(){
+        var val= confirm("Do you want to Delete this Record?")
+        if(val){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    {#    disable and enable the modify button#}
+    $(document).ready(function(){
+        $('input[id = "active"]').attr('disabled', true);
+        $('input[type = "text"]').on('keyup', function(){
+            var text_value1 = $("#f_name").val();
+            var text_value2  = $("#l_name").val();
+            var text_value3  = $("#u_name").val();
+            var text_value4  = $("#nic").val();
+            var text_value5  = $("#email").val();
+            if(text_value1 != '' || text_value2 != '' || text_value3 != '' || text_value4 != '' || text_value5  != ''){
+                $('input[id = "active"]').attr('disabled', false);
+            }else{
+                $('input[id = "active"]').attr('disabled', true);
+            }
+        })
+    })
+</script>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+
+        </ul>
+    </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

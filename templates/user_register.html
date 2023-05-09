@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>User Register</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="main" class="container">
+<div class="login-page">
+    <div class="form">
+        <form class="register-form" action="user_register" method="post">
+            <input type="text" placeholder=" Name"  required="" name="f_name"/><br>
+            <input type="hidden" placeholder="Address" value="non" name="address"/>
+            <input type="text" placeholder="Nic Number" required="" name="nic"/><br>
+            <input type="hidden" placeholder="p_num" value="000" name="p_num" id="p_num"  />
+            <select  name="user_type" id="user">
+                                <option value="">Select user</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Shop">shop</option>
+                                <option value="Builder">Builder</option>
+                                <option value="Deliver">Deliver</option>
+                            </select><br>
+            <input type="hidden" placeholder="Email" value="non"  name="email"/>
+            <input type="text" placeholder="User Name" name="user_name" id="user_name" required=""/><br>
+            <input type="password" placeholder="Password" name="password" id="password"  required=""/><br>
+            <button type="submit" class="button special" name="bttn" value="Register" >Register</button>
+             <button type="reset" class="button special" name="bttn" value="Reset" >Reset</button>
+
+        </form>
+    </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

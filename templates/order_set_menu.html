@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>Order Set Menu Items</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+    <div class="table-wrapper">
+        <table class="alt">
+            <thead>
+            <tr>
+                <th>PC Type</th>
+                <th>CPU</th>
+                <th>CPU Cooler</th>
+                <th>Motherboard</th>
+                <th>Memory</th>
+                <th>Storage</th>
+                <th>VGA</th>
+                <th>Casing</th>
+                <th>Power Supply</th>
+                <th>Operating System</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for record in values %}
+                <tr class="odd gradeX" onclick="javascript:showRow(this);">
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+                <td>{{ record[3] }}</td>
+                <td>{{ record[4] }}</td>
+                <td>{{ record[5] }}</td>
+                <td>{{ record[6] }}</td>
+                <td>{{ record[7] }}</td>
+                <td>{{ record[8] }}</td>
+                <td>{{ record[9] }}</td>
+                <td>{{ record[10] }}</td>
+                <td>{{ record[11] }}</td>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+<div id="main" class="container">
+         <form class="register-form" action="order_set_menu" method="post">
+                   <div class="form-group">
+                <label for="exampleInputName">Select PC Type  :</label>
+                <input class="form-control" id="pc_type" type="text" name="pc_type" aria-describedby="nameHelp"  required="">
+              </div>
+
+                <div class="form-group">
+                 <label for="exampleInputName">Select CPU  :</label>
+                <input class="form-control" id="cpu" type="text" name="cpu" aria-describedby="nameHelp"  required="">
+              </div>
+
+               <div class="form-group">
+               <label for="exampleInputName">Select CPU Cooler  :</label>
+                <input class="form-control" id="cooler" type="text" name="cooler" aria-describedby="nameHelp"  required="">
+              </div>
+
+               <div class="form-group">
+              <label for="exampleInputName">Select Motherboard :</label>
+                <input class="form-control" id="motherboard" type="text" name="motherboard" aria-describedby="nameHelp"  required="">
+              </div>
+             <div class="form-group">
+                <label for="exampleInputName">Select Memory  :</label>
+                <input class="form-control" id="memory" type="text" name="memory" aria-describedby="nameHelp"  required="">
+              </div>
+               <div class="form-group">
+                 <label for="exampleInputName">Select Storage  :</label>
+                <input class="form-control" id="storage" type="text" name="storage" aria-describedby="nameHelp"  required="">
+              </div>
+                   <div class="form-group">
+                 <label for="exampleInputName">Select VGA  :</label>
+                <input class="form-control" id="vga" type="text" name="vga" aria-describedby="nameHelp"  required="">
+              </div>
+          <div class="form-group">
+                   <label for="exampleInputName">Select Casing  :</label>
+                <input class="form-control" id="casing" type="text" name="casing" aria-describedby="nameHelp"  required="">
+              </div>
+
+         <div class="form-group">
+                 <label for="exampleInputName">Select Power Supply  :</label>
+                <input class="form-control" id="power" type="text" name="power" aria-describedby="nameHelp"  required="">
+              </div>
+
+         <div class="form-group">
+                <label for="exampleInputName">Select Operating System  :</label>
+                <input class="form-control" id="os" type="text" name="os" aria-describedby="nameHelp"  required="">
+              </div>
+          <div class="form-group">
+                <label for="exampleInputName">Total  :</label>
+                <input class="form-control" id="total" type="text" name="total" aria-describedby="nameHelp"  required="">
+              </div>
+          <div class="form-group">
+                <label for="exampleInputName">Client Name  :</label>
+                <input class="form-control" id="f_name" type="text" name="f_name" aria-describedby="nameHelp"  required="">
+              </div>
+           <div class="form-group">
+                <label for="exampleInputName">Client NIC  :</label>
+                <input class="form-control" id="nic" type="text" name="nic" aria-describedby="nameHelp"  required="">
+              </div>
+         <div class="form-group">
+                <label for="exampleInputName">Client Address  :</label>
+                <input class="form-control" id="address" type="text" name="address" aria-describedby="nameHelp"  required="">
+              </div>
+             <div class="form-group">
+                <label for="exampleInputName">Client Phone Number  :</label>
+                <input class="form-control" id="p_number" type="text" name="p_number" aria-describedby="nameHelp"  required="">
+              </div>
+         <div class="form-group">
+                <label for="exampleInputName">Select payment method  :</label>
+                <select class="form-control" name="payment" id="payment">
+                                        <option value=""></option>
+                                        <option value="cash">Cash</option>
+                                        <option value="card">Card</option>
+                                    </select>
+                  </div>
+                <input type="hidden" class="form-control"  id="operation" type="text" name="operation" value="pending"  required="">
+             <div class="form-group">
+            </div><br>
+               <button type="submit" onclick="window.print()"  class="button special" name="bttn" value="order" >Order</button>
+              <button type="reset" class="button special" name="bttn" value="Reset" >Reset</button>
+        </section>
+        </form>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<h2>IF you ordered please login</h2>
+					</ul>
+				</div>
+			</footer><script>
+    {#    show data in form view when click the table row#}
+    function showRow(row)
+    {
+        var x =  row.cells;
+        document.getElementById("pc_type").value = x[0].innerHTML;
+        document.getElementById("cpu").value = x[1].innerHTML;
+        document.getElementById("cooler").value = x[2].innerHTML;
+        document.getElementById("motherboard").value = x[3].innerHTML;
+        document.getElementById("memory").value = x[4].innerHTML;
+        document.getElementById("storage").value = x[5].innerHTML;
+        document.getElementById("vga").value = x[6].innerHTML;
+        document.getElementById("casing").value = x[7].innerHTML;
+        document.getElementById("power").value = x[8].innerHTML;
+        document.getElementById("os").value = x[9].innerHTML;
+        document.getElementById("total").value = x[10].innerHTML;
+    }
+    function deleteloantype(){
+        var val= confirm("Do you want to Delete this Record?")
+        if(val){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    {#    disable and enable the modify button#}
+    $(document).ready(function(){
+        $('input[id = "active"]').attr('disabled', true);
+        $('input[type = "text"]').on('keyup', function(){
+            var text_value1 = $("#f_name").val();
+            var text_value2  = $("#l_name").val();
+            var text_value3  = $("#u_name").val();
+            var text_value4  = $("#nic").val();
+            var text_value5  = $("#email").val();
+            if(text_value1 != '' || text_value2 != '' || text_value3 != '' || text_value4 != '' || text_value5  != ''){
+                $('input[id = "active"]').attr('disabled', false);
+            }else{
+                $('input[id = "active"]').attr('disabled', true);
+            }
+        })
+    })
+</script>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>Normal PC</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="main" class="container">
+         <form>
+                                  <table class="xs-col-12">
+        <thead>
+            <tr>
+                <th class="th__component">Component</th>
+                <th></th>
+                <th class="th__selection" colspan="2">Selection</th>
+                <th class="th__price"></th>
+            </tr>
+        </thead>
+        <tbody>
+                    <tr class="tr__product" >
+                    <td class="td__component">Brand</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                <select class="form-control" name="user_type" id="brand">
+                                        <option value="45 000">Asus</option>
+                                        <option value="40000">Dell</option>
+                                         <option value="35000">Hp</option>
+                                    </select>
+                    </td>
+                </tr>
+
+                <tr class="tr__product" >
+                    <td class="td__component">Cpu</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                <select class="form-control" name="user_type" id="cpu">
+                                        <option value="45 000">Intel Core i7</option>
+                                        <option value="40000">Intel Core i5</option>
+                                         <option value="35000">Intel Core i3</option>
+                                    </select>
+                    </td>
+                </tr>
+
+                <tr class="tr__product" >
+                    <td class="td__component">Memory</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                       <select class="form-control" name="user_type" id="memory">
+                                        <option value="15000">16 GB</option>
+                                        <option value="7000">8 GB</option>
+                                         <option value="3000">4 GB</option>
+                                    </select>
+                    </td>
+                </tr>
+                <tr class="form_group" >
+                    <td class="td__component">Storage</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <select class="form-control" name="user_type" id="storage">
+                                        <option value="18000">2 TB</option>
+                                        <option value="12000">1 TB</option>
+                                        <option value="5000">500 GB</option>
+                                         <option value="3000">240 GB</option>
+                                    </select>
+                    </td>
+                </tr>
+                <tr class="tr__product" >
+                    <td class="td__component">Genaration</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <select class="form-control" name="user_type" id="gen">
+                                        <option value="5000">5 th</option>
+                                        <option value="0">6th</option>
+                                       <option value="5000">7 th</option>
+                                        <option value="0">8 th</option>
+                                    </select>
+                    </td>
+                </tr>
+
+                <tr class="tr__product" >
+                    <td class="td__component">Operating System</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <select class="form-control" name="user_type" id="os">
+                                        <option value="0">free dos</option>
+                                        <option value="5000">windows</option>
+                                    </select>
+                    </td>
+                </tr>
+                <tr class="tr__product" >
+                    <td class="td__component">Total</td>
+                        <td class="td__placement--empty"></td>
+                    <td class="td__addComponent" colspan="11">
+                        <input type="text" id="answer">
+                    </td>
+        </tbody>
+    </table>
+             <div class="form-group">
+            </div>
+             <button type="submit" class="button special" name="btn" value="submit" >Register</button>
+              <button onclick="add()" class="button special" name="bttn" value="Reset" >Total</button>
+              <button type="reset" class="button special" name="bttn" value="Reset" >Reset</button>
+             <button type="reset" onclick="window.print()" class="button special" name="bttn" value="Reset" >Print</button>
+
+        </section>
+        </form>
+              <script>
+            function add(){
+            var a,b,c,d,e,f,x;
+            a=Number(document.getElementById("brand").value);
+            b=Number(document.getElementById("cpu").value);
+            c=Number(document.getElementById("memory").value);
+            d=Number(document.getElementById("storage").value);
+            e=Number(document.getElementById("gen").value);
+            f=Number(document.getElementById("os").value);
+            x= a + b + c+ d+e+f ;
+            document.getElementById("answer").value= x;
+            }
+            function GetSelectedText(){
+				var e = document.getElementById("answer");
+				var answer = e.options[e.selectedIndex].text;
+				document.getElementById("answer").innerHTML = result;
+			}
+</script>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+
+        </ul>
+    </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

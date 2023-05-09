@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Flat HTML5/CSS3 Login Form</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="login-page">
+    <div class="form">
+        <form class="register-form" action="client_register" method="post">
+            <input type="text" placeholder=" Name" required="" name="f_name"/>
+            <input type="text" placeholder="Address" required="" name="address"/>
+            <input type="text" placeholder="Nic Number" required="" name="nic"/>
+            <input type="text" placeholder="p_num" name="p_num" id="p_num"  required=""/>
+            <input type="hidden" placeholder="client" value="Client" name="user_type" id="user" />
+            <input type="email" placeholder="Email" required="" name="email"/>
+            <input type="text" placeholder="User Name" name="user_name" id="user_name" required=""/>
+            <input type="password" placeholder="Password" name="password" id="password"  required=""/>
+            <button type="submit">create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+
+        </form>
+        <form class="login-form" action="login_user" method="post">
+            {% if error %}<p style="color: red"><strong>{{ error }}</strong></p>{% endif %}
+            <input type="text" placeholder="username" name="user_name" required=""/>
+            <input type="password" placeholder="password" name="password" required=""/>
+            <button type="submit">login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+    </div>
+</div>
+
+
+
+<script src="../static/js/jquery.min.js"></script>
+
+<script  src="../static/js/index.js"></script>
+</body>
+</html>

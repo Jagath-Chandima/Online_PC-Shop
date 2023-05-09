@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>Normal PC</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="main" class="container">
+        <form class="register-form" action="pc_register" method="post">
+                   <div class="form-group">
+                <label for="exampleInputName">Select PC Type  :</label>
+                <select class="form-control" name="pc_type">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           <div class="form-group">
+                <label for="exampleInputName">Select CPU  :</label>
+                <select class="form-control" name="cpu">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+
+               <div class="form-group">
+                <label for="exampleInputName">Select CPU Cooler  :</label>
+                <select class="form-control" name="cooler">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+
+      <div class="form-group">
+                <label for="exampleInputName">Select Motherboard :</label>
+                <select class="form-control" name="motherboard">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+
+    <div class="form-group">
+                <label for="exampleInputName">Select Memory  :</label>
+                <select class="form-control" name="memory">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+          <div class="form-group">
+                <label for="exampleInputName">Select Storage  :</label>
+                <select class="form-control" name="storage">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+                <div class="form-group">
+                <label for="exampleInputName">Select VGA  :</label>
+                <select class="form-control" name="vga">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+           </div>
+                <div class="form-group">
+                <label for="exampleInputName">Select Casing  :</label>
+                <select class="form-control" name="casing">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+        <div class="form-group">
+                <label for="exampleInputName">Select Power Supply  :</label>
+                <select class="form-control" name="power">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div>
+
+              <div class="form-group">
+                <label for="exampleInputName">Select Operating System  :</label>
+                <select class="form-control" name="os">
+                                        <option value="front_desk">front desk</option>
+                                        <option value="manager">Manager</option>
+                                    </select>
+           </div><br>
+            <input class="form_group" type="text" placeholder="Total" name="total">
+            <div class="form-group">
+            </div><br>
+               <button type="submit" class="button special" name="btn" value="submit" >Register</button>
+              <button type="reset" class="button special" name="btn" value="Reset" >Reset</button>
+
+        </section>
+        </form>
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+
+        </ul>
+    </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

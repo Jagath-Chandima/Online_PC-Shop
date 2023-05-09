@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Table</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <div class="logo"><a href="index.html">Hello <span>Flask</span></a></div>
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="#">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>How to create tables in Flask</p>
+            <h2>Tables</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="main" class="container">
+
+    <div class="table-wrapper">
+        <table class="alt">
+            <thead>
+            <tr>
+                <th> Item</th>
+                <th> Price</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for record in values %}
+                <tr class="odd gradeX" onclick="javascript:showRow(this);">
+                <td>{{ record[2] }}</td>
+                <td>{{ record[4] }}</td>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <form method="post" action="/button_actions">
+        <div class="row uniform">
+            <div>
+                <label>Processor</label>
+                <table>
+               <td><input type="text" class="form-control" size="70" placeholder=" Name" id="f_name"  required="" name="f_name"/></td>
+           <td> <input type="text" class="form-control" size="70" placeholder="Address" id="address" value="" name="address"/></td>
+             </table>
+            </div>
+            <div>
+                <label>CPU</label>
+                <table>
+               <td><input type="text" class="form-control" size="70" placeholder=" Name" id="f_name"  required="" name="f_name"/></td>
+           <td> <input type="text" class="form-control" size="70" placeholder="Address" id="address" value="" name="address"/></td>
+             </table>
+            </div>
+
+
+        </div>
+        <div class="row uniform">
+        <ul class="actions">
+            <li><input type="submit" name="submit" class="button special" value="Modify" id="active"></li>
+            <li><input type="submit" name="submit" class="button special" value="Delete" id="delete" onclick="return deleteloantype()"></li>
+            <li> <a href="{{ url_for ('drop_down_1') }}" class="button special">Next</a></li>
+        </ul>
+    </div>
+    </form>
+
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        &copy; Untitled. All rights reserved.
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+<script>
+    {#    show data in form view when click the table row#}
+    function showRow(row)
+    {
+        var x =  row.cells;
+        document.getElementById("f_name").value = x[0].innerHTML;
+        document.getElementById("address").value = x[1].innerHTML;
+
+    }
+    function deleteloantype(){
+        var val= confirm("Do you want to Delete this Record?")
+        if(val){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    {#    disable and enable the modify button#}
+    $(document).ready(function(){
+        $('input[id = "active"]').attr('disabled', true);
+        $('input[type = "text"]').on('keyup', function(){
+             var text_value1 = $("#id").val();
+            var text_value2 = $("#f_name").val();
+            var text_value3  = $("#nic").val();
+            var text_value4  = $("#user_type").val();
+            var text_value5  = $("#user_name").val();
+            var text_value6  = $("#password").val();
+            if(text_value1 != '' || text_value2 != '' || text_value3 != '' || text_value4 != '' || text_value5  != '' || text_value6  != ''){
+                $('input[id = "active"]').attr('disabled', false);
+            }else{
+                $('input[id = "active"]').attr('disabled', true);
+            }
+        })
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Drop Down</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{{ url_for('login_user') }}">Home</a></li>
+    </ul>
+</nav>
+<script src="../static/js/highcharts.js"></script>
+<script src="../static/js/highcharts-3d.js"></script>
+<script src="../static/js/exporting.js"></script>
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>Make your Dream True</p>
+            <h2>Operation Status</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="pie"></div>
+
+<script>
+    var series = [];
+
+    {% for id in data %}
+        series.push(['{{id[0].strip() }}',{{ id[1] }}]);
+    {% endfor %}
+
+    Highcharts.chart('pie', {
+    chart: {
+        type: 'pie',
+        options3d: {
+            enabled: true,
+            alpha: 45,
+            beta: 0
+        }
+    },
+    title: {
+        text: 'Current Status'
+    },
+{#    tooltip: {#}
+{#        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'#}
+{#    },#}
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            depth: 35,
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}: {point.y}'
+            }
+        }
+    },
+    series: [{
+        type: 'pie',
+        name: 'Total Pc ',
+
+        data: series
+    }]
+});
+
+</script>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+
+        </ul>
+    </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+</body>
+</html>

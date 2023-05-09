@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb22da65-3614-4316-b791-74299df995f6" name="Default" comment="" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Login$Login.coverage" NAME="Login Coverage Results" MODIFIED="1587523372761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/grp project$Login.coverage" NAME="Login Coverage Results" MODIFIED="1609950810565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Login" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Login.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="517" column="19" selection-start-line="517" selection-start-column="19" selection-end-line="517" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#93#0" expanded="true" />
+                <marker date="1609950810503" expanded="true" signature="961:988" placeholder="select user_... user_register" />
+                <marker date="1609950810503" expanded="true" signature="961:1083" placeholder="select user_... user_register" />
+                <marker date="1609950810503" expanded="true" signature="2589:2743" placeholder="INSERT INTO client_register... " />
+                <marker date="1609950810503" expanded="true" signature="3706:3860" placeholder="INSERT INTO user_register... " />
+                <marker date="1609950810503" expanded="true" signature="4708:4826" placeholder="INSERT INTO user_register... " />
+                <marker date="1609950810503" expanded="true" signature="5827:6004" placeholder="INSERT INTO order_register... " />
+                <marker date="1609950810503" expanded="true" signature="7408:7679" placeholder="INSERT INTO order_register... " />
+                <marker date="1609950810503" expanded="true" signature="9245:9515" placeholder="INSERT INTO delivery_orders... " />
+                <marker date="1609950810503" expanded="true" signature="10416:10443" placeholder="SELECT * FRO... user_register" />
+                <marker date="1609950810503" expanded="true" signature="10810:10837" placeholder="SELECT * FRO... item_register" />
+                <marker date="1609950810503" expanded="true" signature="11223:11245" placeholder="SELECT * FRO... pc_register" />
+                <marker date="1609950810503" expanded="true" signature="11615:11661" placeholder="SELECT * FRO... pc_register" />
+                <marker date="1609950810503" expanded="true" signature="12026:12073" placeholder="SELECT * FRO... pc_register" />
+                <marker date="1609950810503" expanded="true" signature="12437:12483" placeholder="SELECT * FRO... pc_register" />
+                <marker date="1609950810503" expanded="true" signature="12866:12888" placeholder="SELECT * FRO... order_register" />
+                <marker date="1609950810503" expanded="true" signature="12866:12895" placeholder="SELECT * FRO... set_menu_orders" />
+                <marker date="1609950810503" expanded="true" signature="13283:13338" placeholder="SELECT * FRO... order_register" />
+                <marker date="1609950810503" expanded="true" signature="13738:13793" placeholder="SELECT * FRO... pc_order_register" />
+                <marker date="1609950810503" expanded="true" signature="14185:14232" placeholder="SELECT * FRO... delivery_orders" />
+                <marker date="1609950810503" expanded="true" signature="14185:14246" placeholder="SELECT * FRO... set_menu_orders" />
+                <marker date="1609950810503" expanded="true" signature="14185:14247" placeholder="SELECT * FRO... delivery_orders" />
+                <marker date="1609950810503" expanded="true" signature="14608:14653" placeholder="SELECT passw... user_register" />
+                <marker date="1609950810503" expanded="true" signature="15633:15684" placeholder="DELETE FROM " />
+                <marker date="1609950810503" expanded="true" signature="16815:16822" placeholder="UPDATE order... " />
+                <marker date="1609950810503" expanded="true" signature="16815:17326" placeholder="UPDATE set_m... " />
+                <marker date="1609950810503" expanded="true" signature="17754:17803" placeholder="DELETE FROM " />
+                <marker date="1609950810503" expanded="true" signature="18947:19016" placeholder="select statu... apprual_form" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipe.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pipe.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drop_down.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/drop_down.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/simple.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="33" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customise.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/customise.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3696">
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delivery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/delivery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3872">
+              <caret line="176" column="6" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="completed.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/completed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js</find>
+      <find>images</find>
+      <find>assets</find>
+      <find>url_for</find>
+      <find>index1</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/js/jquery-2.1.0.min.js" />
+        <option value="$PROJECT_DIR$/static/js/index.js" />
+        <option value="$PROJECT_DIR$/templates/laptops.html" />
+        <option value="$PROJECT_DIR$/templates/eranda.html" />
+        <option value="$PROJECT_DIR$/templates/custermize.html" />
+        <option value="$PROJECT_DIR$/templates/grapic.html" />
+        <option value="$PROJECT_DIR$/templates/error.html" />
+        <option value="$PROJECT_DIR$/templates/simple.html" />
+        <option value="$PROJECT_DIR$/templates/comform_order.html" />
+        <option value="$PROJECT_DIR$/templates/customise.html" />
+        <option value="$PROJECT_DIR$/templates/test home.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/home4.html" />
+        <option value="$PROJECT_DIR$/templates/home5.html" />
+        <option value="$PROJECT_DIR$/templates/home1.html" />
+        <option value="$PROJECT_DIR$/templates/home6.html" />
+        <option value="$PROJECT_DIR$/templates/home3.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/user_register.html" />
+        <option value="$PROJECT_DIR$/templates/tables.html" />
+        <option value="$PROJECT_DIR$/templates/items_register.html" />
+        <option value="$PROJECT_DIR$/templates/set_menu.html" />
+        <option value="$PROJECT_DIR$/templates/normal_pc.html" />
+        <option value="$PROJECT_DIR$/templates/gaming.html" />
+        <option value="$PROJECT_DIR$/templates/graphic.html" />
+        <option value="$PROJECT_DIR$/templates/order_set_menu.html" />
+        <option value="$PROJECT_DIR$/templates/item_view.html" />
+        <option value="$PROJECT_DIR$/templates/order_list.html" />
+        <option value="$PROJECT_DIR$/templates/delivery.html" />
+        <option value="$PROJECT_DIR$/templates/drop_down.html" />
+        <option value="$PROJECT_DIR$/templates/finish_orders.html" />
+        <option value="$PROJECT_DIR$/templates/completed.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/home2.html" />
+        <option value="$PROJECT_DIR$/templates/pipe.html" />
+        <option value="$PROJECT_DIR$/Login.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grp project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grp project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grp project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grp project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grp project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/python/grp project" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PyCharm Projects\Login\templates" />
+      <recent name="E:\PyCharm Projects\Login\static\css" />
+      <recent name="E:\PyCharm Projects\Login\static" />
+      <recent name="E:\PyCharm Projects\Login\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Login">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Login" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Login" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Login" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.Login" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb22da65-3614-4316-b791-74299df995f6" name="Default" comment="" />
+      <created>1510140888979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510140888979</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15182403" sideWeight="0.4960452" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25310734" sideWeight="0.1223176" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.8776824" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15706214" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18263811" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15718885" sideWeight="0.5039548" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21089223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2101695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12392704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21089223" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/templates/normal_pc.html</url>
+          <line>238</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="38" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+            <marker date="1609950810503" expanded="true" signature="961:988" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="961:1083" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="2589:2743" placeholder="INSERT INTO client_register... " />
+            <marker date="1609950810503" expanded="true" signature="3706:3860" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="4708:4826" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="5827:6004" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="7408:7679" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="9245:9515" placeholder="INSERT INTO delivery_orders... " />
+            <marker date="1609950810503" expanded="true" signature="10416:10443" placeholder="SELECT * FRO... user_register" />
+            <marker date="1609950810503" expanded="true" signature="10810:10837" placeholder="SELECT * FRO... item_register" />
+            <marker date="1609950810503" expanded="true" signature="11223:11245" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="11615:11661" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12026:12073" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12437:12483" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12888" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12895" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="13283:13338" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="13738:13793" placeholder="SELECT * FRO... pc_order_register" />
+            <marker date="1609950810503" expanded="true" signature="14185:14232" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14246" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14247" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14608:14653" placeholder="SELECT passw... user_register" />
+            <marker date="1609950810503" expanded="true" signature="15633:15684" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="16815:16822" placeholder="UPDATE order... " />
+            <marker date="1609950810503" expanded="true" signature="16815:17326" placeholder="UPDATE set_m... " />
+            <marker date="1609950810503" expanded="true" signature="17754:17803" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="18947:19016" placeholder="select statu... apprual_form" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python Installation/Lib/site-packages/flask/app.py" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+            <marker date="1609950810503" expanded="true" signature="961:988" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="961:1083" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="2589:2743" placeholder="INSERT INTO client_register... " />
+            <marker date="1609950810503" expanded="true" signature="3706:3860" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="4708:4826" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="5827:6004" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="7408:7679" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="9245:9515" placeholder="INSERT INTO delivery_orders... " />
+            <marker date="1609950810503" expanded="true" signature="10416:10443" placeholder="SELECT * FRO... user_register" />
+            <marker date="1609950810503" expanded="true" signature="10810:10837" placeholder="SELECT * FRO... item_register" />
+            <marker date="1609950810503" expanded="true" signature="11223:11245" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="11615:11661" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12026:12073" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12437:12483" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12888" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12895" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="13283:13338" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="13738:13793" placeholder="SELECT * FRO... pc_order_register" />
+            <marker date="1609950810503" expanded="true" signature="14185:14232" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14246" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14247" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14608:14653" placeholder="SELECT passw... user_register" />
+            <marker date="1609950810503" expanded="true" signature="15633:15684" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="16815:16822" placeholder="UPDATE order... " />
+            <marker date="1609950810503" expanded="true" signature="16815:17326" placeholder="UPDATE set_m... " />
+            <marker date="1609950810503" expanded="true" signature="17754:17803" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="18947:19016" placeholder="select statu... apprual_form" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html" />
+    <entry file="file://$PROJECT_DIR$/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+            <marker date="1609950810503" expanded="true" signature="961:988" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="961:1083" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="2589:2743" placeholder="INSERT INTO client_register... " />
+            <marker date="1609950810503" expanded="true" signature="3706:3860" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="4708:4826" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="5827:6004" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="7408:7679" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="9245:9515" placeholder="INSERT INTO delivery_orders... " />
+            <marker date="1609950810503" expanded="true" signature="10416:10443" placeholder="SELECT * FRO... user_register" />
+            <marker date="1609950810503" expanded="true" signature="10810:10837" placeholder="SELECT * FRO... item_register" />
+            <marker date="1609950810503" expanded="true" signature="11223:11245" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="11615:11661" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12026:12073" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12437:12483" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12888" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12895" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="13283:13338" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="13738:13793" placeholder="SELECT * FRO... pc_order_register" />
+            <marker date="1609950810503" expanded="true" signature="14185:14232" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14246" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14247" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14608:14653" placeholder="SELECT passw... user_register" />
+            <marker date="1609950810503" expanded="true" signature="15633:15684" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="16815:16822" placeholder="UPDATE order... " />
+            <marker date="1609950810503" expanded="true" signature="16815:17326" placeholder="UPDATE set_m... " />
+            <marker date="1609950810503" expanded="true" signature="17754:17803" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="18947:19016" placeholder="select statu... apprual_form" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1672">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8507">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3726">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python Installation/Lib/site-packages/flask/app.py" />
+    <entry file="file://$PROJECT_DIR$/templates/eranda.html" />
+    <entry file="file://$PROJECT_DIR$/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test home.html" />
+    <entry file="file://$PROJECT_DIR$/static/images/pic03.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="91" column="47" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/laptops.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="160" column="26" selection-start-line="160" selection-start-column="26" selection-end-line="160" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home1.html" />
+    <entry file="file://$PROJECT_DIR$/templates/home6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/items_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="54" column="128" selection-start-line="54" selection-start-column="115" selection-end-line="54" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/set_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gaming.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/graphic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/normal_pc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2728">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/comform_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/order_set_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="151" column="6" selection-start-line="151" selection-start-column="6" selection-end-line="151" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tables.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="88" column="140" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/order_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3520">
+          <caret line="160" column="37" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/item_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/finish_orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="86" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/completed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/delivery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3872">
+          <caret line="176" column="6" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/customise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/drop_down.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/simple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="33" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/highcharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1716">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pipe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="517" column="19" selection-start-line="517" selection-start-column="19" selection-end-line="517" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+            <marker date="1609950810503" expanded="true" signature="961:988" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="961:1083" placeholder="select user_... user_register" />
+            <marker date="1609950810503" expanded="true" signature="2589:2743" placeholder="INSERT INTO client_register... " />
+            <marker date="1609950810503" expanded="true" signature="3706:3860" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="4708:4826" placeholder="INSERT INTO user_register... " />
+            <marker date="1609950810503" expanded="true" signature="5827:6004" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="7408:7679" placeholder="INSERT INTO order_register... " />
+            <marker date="1609950810503" expanded="true" signature="9245:9515" placeholder="INSERT INTO delivery_orders... " />
+            <marker date="1609950810503" expanded="true" signature="10416:10443" placeholder="SELECT * FRO... user_register" />
+            <marker date="1609950810503" expanded="true" signature="10810:10837" placeholder="SELECT * FRO... item_register" />
+            <marker date="1609950810503" expanded="true" signature="11223:11245" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="11615:11661" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12026:12073" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12437:12483" placeholder="SELECT * FRO... pc_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12888" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="12866:12895" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="13283:13338" placeholder="SELECT * FRO... order_register" />
+            <marker date="1609950810503" expanded="true" signature="13738:13793" placeholder="SELECT * FRO... pc_order_register" />
+            <marker date="1609950810503" expanded="true" signature="14185:14232" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14246" placeholder="SELECT * FRO... set_menu_orders" />
+            <marker date="1609950810503" expanded="true" signature="14185:14247" placeholder="SELECT * FRO... delivery_orders" />
+            <marker date="1609950810503" expanded="true" signature="14608:14653" placeholder="SELECT passw... user_register" />
+            <marker date="1609950810503" expanded="true" signature="15633:15684" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="16815:16822" placeholder="UPDATE order... " />
+            <marker date="1609950810503" expanded="true" signature="16815:17326" placeholder="UPDATE set_m... " />
+            <marker date="1609950810503" expanded="true" signature="17754:17803" placeholder="DELETE FROM " />
+            <marker date="1609950810503" expanded="true" signature="18947:19016" placeholder="select statu... apprual_form" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

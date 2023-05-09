@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+    <title>Table</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+</head>
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+    <div class="logo"><a href="index.html">Hello <span>Flask</span></a></div>
+    <a href="#menu">Menu</a>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="#">Home</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <div class="inner">
+        <header class="align-center">
+            <p>How to create tables in Flask</p>
+            <h2>Tables</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Main -->
+<div id="main" class="container">
+
+    <div class="table-wrapper">
+        <table class="alt">
+            <thead>
+            <tr>
+                <th> ID</th>
+                <th> Item</th>
+                <th>capacity</th>
+                <th>Number of items</th>
+                <th>Price of one item</th>
+                <th>Date</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for record in values %}
+                <tr class="odd gradeX" onclick="javascript:showRow(this);">
+                <td>{{ record[0] }}</td>
+                <td>{{ record[1] }}</td>
+                <td>{{ record[2] }}</td>
+                <td>{{ record[3] }}</td>
+                <td>{{ record[4] }}</td>
+                <td>{{ record[5] }}</td>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <form method="post" action="/delete_item">
+        <div class="row uniform">
+            <div>
+                <input type="hidden" name="id" id="id" value="" placeholder="ID" />
+               <input type="text" class="form-control" size="70" placeholder=" Item" id="item"  required="" name="item"/><br>
+            <input type="text" class="form-control" size="70" placeholder="capacity" id="capacity" value="non" name="capacity"/><br>
+            <input type="text" class="form-control" size="70" placeholder="Number of items" id="number_of_items" required="" name="number_of_items"/><br>
+            <input type="text" class="form-control" size="70" placeholder="Price of one item" value="" name="price" id="price"  /><br>
+            <input type="text" class="form-control" size="70" placeholder="Date"  name="date_of_store" id="date_of_store"  /><br>
+            </div>
+
+
+        </div>
+        <div class="row uniform">
+        <ul class="actions">
+            <li><input type="submit" name="submit" class="button special" value="Modify" id="active"></li>
+            <li><input type="submit" name="submit" class="button special" value="Delete" id="delete" onclick="return deleteloantype()"></li>
+            <li><input type="reset" name="submit" class="button special" value="Cancel" id="cancel" onclick="return enable();"></li>
+        </ul>
+    </div>
+    </form>
+
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        &copy; Untitled. All rights reserved.
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="../static/assets/js/jquery.min.js"></script>
+<script src="../static/assets/js/jquery.scrollex.min.js"></script>
+<script src="../static/assets/js/skel.min.js"></script>
+<script src="../static/assets/js/util.js"></script>
+<script src="../static/assets/js/main.js"></script>
+
+<script>
+    {#    show data in form view when click the table row#}
+    function showRow(row)
+    {
+        var x =  row.cells;
+        document.getElementById("id").value = x[0].innerHTML;
+        document.getElementById("item").value = x[1].innerHTML;
+        document.getElementById("capacity").value = x[2].innerHTML;
+        document.getElementById("number_of_items").value = x[3].innerHTML;
+        document.getElementById("price").value = x[4].innerHTML;
+         document.getElementById("date_of_store").value = x[5].innerHTML;
+    }
+    function deleteloantype(){
+        var val= confirm("Do you want to Delete this Record?")
+        if(val){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    {#    disable and enable the modify button#}
+    $(document).ready(function(){
+        $('input[id = "active"]').attr('disabled', true);
+        $('input[type = "text"]').on('keyup', function(){
+             var text_value1 = $("#id").val();
+            var text_value2 = $("#item").val();
+            var text_value3  = $("#capacity").val();
+            var text_value4  = $("#number_of_items").val();
+            var text_value5  = $("#price").val();
+            var text_value6  = $("#date_of_store").val();
+            if(text_value1 != '' || text_value2 != '' || text_value3 != '' || text_value4 != '' || text_value5  != '' || text_value6  != ''){
+                $('input[id = "active"]').attr('disabled', false);
+            }else{
+                $('input[id = "active"]').attr('disabled', true);
+            }
+        })
+    })
+</script>
+
+</body>
+</html>
